@@ -1,0 +1,60 @@
+.about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aboutTop {
+    width: 100%;
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .aboutBottom {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 5vh;
+  }
+  
+  .aboutBottom p {
+    width: 90%;
+    font-size: 1.4rem; 
+    margin-top: 1.4rem;
+    margin-bottom: 3rem;
+  }
+  
+  .about .aboutBottom h1 {
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about .aboutBottom h1 {
+      font-size: 3rem;
+    }
+  
+    .aboutBottom p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .aboutTop {
+      height: 30vh;
+    }
+  
+    .about .aboutBottom h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
